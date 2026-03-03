@@ -2,20 +2,19 @@
 #include <iostream>
 using namespace std;
 
-string Team_Name;
-string Coach_Name;
-int Ranking;
-
-
-
+//get functions
 string teams::Get_Team_Name()
 {
+	cout << Team_Name << endl;
 	return Team_Name;
 }
 
 string teams::Get_Coach_Name()
 {
-	return Coach_name;
+	cout << Coach_Name << endl;
+	return Coach_Name;
+	
+	
 }
 
 int teams::Get_Ranking()
@@ -23,22 +22,27 @@ int teams::Get_Ranking()
 	return Ranking;
 }
 
+//set functions
 string teams::Set_Team_Name(string Name)
 {
-	Team_Name = Name; return Team_Name;
+	Team_Name = Name; 
+	return Team_Name;
 }
 
 string teams::Set_Coach_Name(string Coach)
 {
-	Coach_name = Coach; return Coach_Name;
+	Coach_Name = Coach; 
+	return Coach_Name;
 }
 
 int teams::Set_Ranking(int rank)
 {
-	Ranking = rank; return Ranking;
+	Ranking = rank; 
+	return Ranking;
 }
 
-//work in progress
+
+//work in progress still
 void teams::Train() {}
-//work in progress
+//work in progress still
 void teams::Play_Match() {}

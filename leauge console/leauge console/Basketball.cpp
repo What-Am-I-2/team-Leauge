@@ -1,16 +1,19 @@
 #include "Basketball.h"
 
-string Court_type;
-void Set_Court_type(string New_court_type)
+int High_Score;
+
+//unique functions for basketball
+void Set_High_Score(int New_High_Score)
 {
-	Court_type = New_court_type;
+	High_Score = New_High_Score;
 }
 
-string Get_Court_type()
+int Get_High_Score()
 {
-	return Court_type;
+	return High_Score;
 }
 
-void train() { cout << "Basketball traning" << endl; }
-void playMatch() { cout << "Basketball match played" << endl; }
+//unique messages
+void Basketball_train() { cout << "Basketball traning" << endl; }
+void Basketball_playMatch() { cout << "Basketball match played" << endl; }
 

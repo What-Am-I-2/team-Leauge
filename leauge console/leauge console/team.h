@@ -4,11 +4,14 @@ using namespace std;
 
 class teams
 {
-protected:
+private:
+	//private information
 	string Team_Name;
-	string Coach_name;
+	string Coach_Name;
 	int Ranking;
+
 public:
+
 
 	string Get_Team_Name();
 

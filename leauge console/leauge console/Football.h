@@ -5,9 +5,12 @@
 using namespace std;
 class Football : public teams
 {
-	void setFormation(string);
-	string getFormation();
+private:
 
+
+ public:
+	void Set_MVP(string);
+	string Get_MVP();
 	void train();
 	void playMatch();
 };

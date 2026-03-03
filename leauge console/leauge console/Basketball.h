@@ -3,13 +3,16 @@
 #include <iostream>
 #include "team.h"
 using namespace std;
+
 class Basketball : public teams
 {
-	void Set_Court_type(string);
-	string Get_Court_type();
 
-	void train();
-	void playMatch();
+
+public:
+	void Set_High_Score(int);
+	int Get_High_Score();
+	void Basketball_train();
+	void Basketball_playMatch();
 };
 
 

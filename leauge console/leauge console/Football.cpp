@@ -1,15 +1,18 @@
 #include "Football.h"
 
-string Formation;
-void setFormation(string newformation)
+string MVP;
+
+//unique functions for football
+void Set_MVP(string New_MVP)
 {
-	Formation = newformation;
+	MVP = New_MVP;
 }
 
-string getFormation()
+string Get_MVP()
 {
-	return Formation;
+	return MVP;
 }
 
-void train() { cout << "football traning" << endl; }
-void playMatch(){ cout << "football match played" << endl; }
+//unique messagess for footbal
+void Football_train() { cout << "football traning" << endl; }
+void Football_playMatch(){ cout << "football match played" << endl; }
